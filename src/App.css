@@ -1,0 +1,33 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: rgb(222, 237, 237);
+    background-color: #242b2e;
+}
+
+button {
+    color: #ffffff;
+    padding: 5px 25px;
+    margin: 10px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    width: 50vw;
+    height: 10vh;
+    border-radius: 50px;
+    border-color: #ffffff;
+    background-color: #6a1b4d;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
